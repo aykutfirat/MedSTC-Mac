@@ -1,0 +1,15 @@
+supervised 1
+primal svm 1
+var max iter 20
+var convergence 1e-4
+em max iter 100
+em convergence 1e-4
+model C 0.5
+delta ell 3600
+lambda 0.1
+rho 0.01
+svm_alg_type 2
+train_file: ./newsgrouptrain.txt
+test_file: ./newsgrouptest.txt
+class_num: 20
+res_file: overall-res_supervised.txt
